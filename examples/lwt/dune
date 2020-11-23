@@ -1,6 +1,6 @@
 (executables
  (names lwt_get lwt_get_pipelined echo_server)
- (modules lwt_get lwt_get_pipelined echo_server)
+ (modules lwt_get lwt_get_pipelined echo_server server_io)
  (libraries piaf logs logs.fmt fmt.tty))
 
 (executable
